@@ -67,7 +67,7 @@ export default function Pricing() {
             Choose Your Plan
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Whether you're an individual user or a corporate team, we have flexible pricing options
+            Whether you are an individual user or a corporate team, we have flexible pricing options
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

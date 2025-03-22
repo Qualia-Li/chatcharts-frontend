@@ -58,7 +58,7 @@ export default function Testimonials() {
               key={index} 
               className="neobrutalism bg-white p-6 rounded-xl flex flex-col"
             >
-              <p className="text-gray-700 mb-6 flex-grow">"{testimonial.content}"</p>
+              <p className="text-gray-700 mb-6 flex-grow">&ldquo;{testimonial.content}&rdquo;</p>
               <div className="flex items-center">
                 <div className="mr-4">
                   <div className="w-12 h-12 bg-gray-200 rounded-full overflow-hidden neobrutalism-sm">
