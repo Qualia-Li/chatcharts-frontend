@@ -3,23 +3,41 @@ import { Container } from "./ui/container"
 
 const testimonials = [
   {
-    content: "GPTSlides completely changed how I prepare for presentations. Now I can spend more time refining content instead of struggling with design.",
-    author: "Mark Zhang",
-    role: "Marketing Director",
-    avatar: "/avatars/user-1.png"
+    content: "🇧🇷 Drlambda – rede neural que transforma páginas da web, arquivos PDF e vídeos em uma apresentação com slides interativos. E é grátis.",
+    author: "Edinaldo Oliveira",
+    role: "Hacker Osint | IA",
+    avatar: "/images/nkSbABHU_400x400.jpeg"
   },
   {
-    content: "As a teacher, I need to frequently create lesson materials. GPTSlides saves me hours of work, and my students are more engaged.",
-    author: "Lisa Wang",
-    role: "University Professor",
-    avatar: "/avatars/user-2.png"
+    content: "This game-changer revolutionized my content creation—no more copy-pasting chaos, just effortless brilliance!",
+    author: "Mohini Shewale",
+    role: "AI Content Creator",
+    avatar: "/images/1706594634503.jpeg"
   },
   {
-    content: "I never had design talent, but with GPTSlides, my presentations look like they were made by a professional designer.",
-    author: "Sarah Chen",
-    role: "Entrepreneur",
-    avatar: "/avatars/user-3.png"
-  }
+    content: "This all-in-one tool seamlessly turns my documents, YouTube videos, and web findings into stunning slides and social posts. 📊💡",
+    author: "Md Riyazuddin",
+    role: "Founder at Digiwin | AI Enthusiast",
+    avatar: "/images/t1.jpeg"
+  },
+  {
+    content: "🇩🇪 DrLamdba ist so gestaltet, dass jeder, unabhängig vom Fachwissen, beeindruckende Präsentationen erstellen kann.",
+    author: "Marco Linke",
+    role: "Designers Inn & Businesserfolg",
+    avatar: "/images/Screen-Shot-2024-03-18-at-5.36.59-PM.png"
+  },
+  {
+    content: "I tried different tools for making presentations with AI - also the famous one like Tome. So i also tried DrLambda and was impressed - you get a great output with very little effort!",
+    author: "Robert Leitinger",
+    role: "Designers Inn & Businesserfolg",
+    avatar: "/images/robert-leitinger.webp"
+  },
+  {
+    content: "Great concept and cuts down on a lot of work creating presentations.",
+    author: "The Learning Point",
+    role: "",
+    avatar: "/images/thelearningpoint.jpeg"
+  },
 ]
 
 export default function Testimonials() {
@@ -44,8 +62,7 @@ export default function Testimonials() {
               <div className="flex items-center">
                 <div className="mr-4">
                   <div className="w-12 h-12 bg-gray-200 rounded-full overflow-hidden neobrutalism-sm">
-                    {/* Replace with real avatars */}
-                    <div className="w-full h-full bg-[#FCD40B]"></div>
+                    <Image src={testimonial.avatar} alt={testimonial.author} width={48} height={48} />
                   </div>
                 </div>
                 <div>
