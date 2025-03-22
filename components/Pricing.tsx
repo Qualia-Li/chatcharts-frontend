@@ -3,48 +3,58 @@ import { Button } from "./ui/button"
 
 const plans = [
   {
-    name: "Free",
-    price: "$0",
-    description: "Perfect for individuals trying it out",
+    name: "Plus Plan",
+    price: "$9.9",
+    period: "/Month",
+    description: "Perfect for Small Projects",
     features: [
-      "5 AI presentations per month",
-      "Basic template library",
-      "Standard export formats",
-      "Community support"
+      "Up to 20 slides per project",
+      "30 slide generations",
+      "5 resources per project",
+      "20 resource pages",
+      "50MB file size limit",
+      "Basic export options (PDF, PPTX, VIDEO, KEYNOTE, PODCAST)"
     ],
     highlight: false,
     buttonText: "Get Started"
   },
   {
-    name: "Pro",
-    price: "$19",
-    period: "/month",
-    description: "For professionals and small teams",
+    name: "Pro Plan",
+    price: "$14.9",
+    period: "/Month",
+    description: "More Features & Flexibility",
     features: [
-      "Unlimited AI presentations",
-      "All premium templates",
-      "Multiple export formats",
-      "Priority email support",
-      "Advanced AI image generation",
-      "Team collaboration features"
+      "Up to 40 slides per project",
+      "80 slide generations",
+      "10 resources per project",
+      "40 resource pages",
+      "100MB file size limit",
+      "Advanced export options with System Avatar",
+      "Video generation with 100+ avatars (10 min/month)",
+      "100+ System Voices with unlimited usage",
+      "Convert slides to podcast content"
     ],
     highlight: true,
-    buttonText: "Choose Pro"
+    buttonText: "Get Started"
   },
   {
-    name: "Enterprise",
-    price: "Custom",
-    description: "For large organizations with custom needs",
+    name: "Ultimate Plan",
+    price: "$59.9",
+    period: "/Month",
+    description: "Unlock Full Creative Control",
     features: [
-      "All Pro features",
-      "Enterprise-grade security",
-      "Dedicated account manager",
-      "Brand customization",
-      "API integration",
-      "Advanced team management"
+      "Up to 60 slides per project",
+      "200 slide generations",
+      "20 resources per project",
+      "40 resource pages",
+      "100MB file size with no restrictions",
+      "Premium export options",
+      "Extended video generation (30 min/month)",
+      "Custom voice recording & integration",
+      "Custom branding & logo integration"
     ],
     highlight: false,
-    buttonText: "Contact Sales"
+    buttonText: "Get Started"
   }
 ]
 
