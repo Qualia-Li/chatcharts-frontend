@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: 48, 90%, 52%; /* #FCD40B */
+  --accent-foreground: 20, 14.3%, 4.1%;
+  --background: 0, 0%, 100%;
+  --foreground: 20, 14.3%, 4.1%;
+}
+
+.neobrutalism {
+  border-width: 4px;
+  border-color: #000000;
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+}
+
+.neobrutalism-sm {
+  border-width: 2px;
+  border-color: #000000;
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+}
+
+.section-padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+} 
