@@ -17,22 +17,24 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button size="lg" className="rounded-xl">
-                Start for Free
+                <a href="https://chatslide.ai/signup">Start for Free</a>
               </Button>
               <Button variant="outline" size="lg" className="rounded-xl">
-                Watch Demo
+                <a href="https://chatslide.ai">Watch Demo</a>
               </Button>
             </div>
           </div>
           <div className="neobrutalism bg-white p-3 md:p-5 rounded-xl">
-            <Image
-              src="/images/presentation-preview.png"
-              alt="GPTSlides Presentation Preview"
-              width={600}
-              height={400}
-              className="rounded-lg w-full h-auto"
-              priority
-            />
+            <div className="relative w-full overflow-hidden" style={{ paddingBottom: "56.25%" }}>
+              <iframe
+                src="https://www.youtube.com/embed/jfbGL3zAUr4"
+                title="GPTSlides Presentation Demo"
+                className="absolute top-0 left-0 w-full h-full rounded-lg"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </Container>

@@ -8,7 +8,7 @@ export default function Header() {
       <Container>
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="font-bold text-2xl">GPTSlides</span>
+            <span className="font-bold text-2xl">ChatSlide</span>
           </Link>
           
           {/* Mobile menu button */}
@@ -39,8 +39,12 @@ export default function Header() {
               Pricing
             </Link>
             <div className="space-x-3">
-              <Button variant="outline" size="sm">Log In</Button>
-              <Button variant="default" size="sm">Try Free</Button>
+              <Button variant="outline" size="sm">
+                <Link href="https://chatslide.ai/signin">Log In</Link>
+              </Button>
+              <Button variant="default" size="sm">
+                <Link href="https://chatslide.ai/signup">Try Free</Link>
+              </Button>
             </div>
           </nav>
         </div>
